@@ -1,4 +1,16 @@
 aid: acceleron
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/acceleron.png
 name: Acceleron
 description: 'Acceleron is a company surfaced as a portfolio company of bessemer-venture-partners and
   added to the API Evangelist network as a stub for enrichment. Sector: biotech. This profile is a lead
@@ -10,10 +22,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Biotech
+- Biopharmaceutical
+- Pharmaceutical
+- Life Sciences
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +37,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/acceleron-domain-security.yml
 - type: Website
   url: https://www.acceleronpharma.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
